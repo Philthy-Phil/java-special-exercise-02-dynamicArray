@@ -1,8 +1,8 @@
-package dynamicArray;
+package DynamicArray;
 
 import java.util.Scanner;
 
-public class dynamicArray {
+public class DynamicArray {
 
 	public static void main(String[] args) {
 
@@ -29,7 +29,7 @@ public class dynamicArray {
 			if (input.equals("y")) {
 				terminate = true;
 			}
-			if (j <= dataSet.length) {
+			if (j >= dataSet.length - 1) {
 				// Hilfsarray
 				String[] biggerdataSet = new String[dataSet.length + 1];
 
