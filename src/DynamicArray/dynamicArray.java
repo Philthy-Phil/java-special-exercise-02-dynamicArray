@@ -13,7 +13,7 @@ public class DynamicArray {
 		int j = 0;
 		String[] dataSet = new String[1];
 
-		// dataSet erstellen/befüllen
+		// dataSet erstellen/befÃ¼llen
 		while (!terminate) {
 			System.out.println("data to be stored: ");
 			dataSet[j] = scan.nextLine();
@@ -25,7 +25,7 @@ public class DynamicArray {
 			System.out.println("quit? ('y', or else)");
 			String input = scan.nextLine();
 
-			// Abbruch Übereinstimmung
+			// Abbruch Ãœbereinstimmung
 			if (input.equals("y")) {
 				terminate = true;
 			}
@@ -39,7 +39,7 @@ public class DynamicArray {
 			}
 			j++;
 		}
-
+		scan.close();
 		// check sets in data array
 		for (int i = 0; i < j; i++) {
 			stringBuilder.append(dataSet[i]);
